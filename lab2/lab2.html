@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Список дел</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<div>
+    <h1>Список дел</h1>
+
+    <div>
+        <input type="text" placeholder="Новый элемент списка" class="main-input">
+        <button type="button" class="btn-create">Создать</button>
+        <button type="button" class="btn-clear">Очистить всё</button>
+    </div>
+
+    <ul class="todo-list">
+        <li class="todo-item completed">
+            <label class="label_xz">
+                <input type="checkbox">
+                <span>Почесать кошку</span>
+            </label>
+            <button type="button" class="btn-delete">✖</button>
+        </li>
+
+        <li class="todo-item">
+            <label class="label_xz">
+                <input type="checkbox">
+                <span>Полить картошку</span>
+            </label>
+            <button type="button" class="btn-delete">✖</button>
+        </li>
+
+        <li class="todo-item">
+            <label class="label_xz">
+                <input type="checkbox">
+                <span>Сложить в лукошко</span>
+            </label>
+            <button type="button" class="btn-delete">✖</button>
+        </li>
+    </ul>
+
+    <div class="empty-msg" style="display: none;">Не найдено ни одного дела</div>
+</div>
+
+</body>
+</html>
