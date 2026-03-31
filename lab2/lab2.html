@@ -7,44 +7,59 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+    <div class="container">
+        <div class="header">
+            <img class="header-icon" src="https://cdn-icons-png.flaticon.com/512/338/338653.png" alt="icon">
+            <h1 class="title">Список дел</h1>
+        </div>
+        <div class="input-section">
+            <input type="text" placeholder="Новый элемент списка" class="main-input">
+            <button type="button" class="btn-create">Создать</button>
+            <button type="button" class="btn-clear">Очистить всё</button>
+        </div>
 
-<div>
-    <h1>Список дел</h1>
+        <ul class="todo-list">
+            <li class="todo-item">
+                <label class="label_xz">
+                    <input type="checkbox">
+                    <div class="task-text">
+                        <span>Почесать кошку</span>
+                        <sub>от 14.08.2023</sub>
+                    </div>
+                </label>
+                <button type="button" class="btn-delete">✖</button>
+            </li>
 
-    <div>
-        <input type="text" placeholder="Новый элемент списка" class="main-input">
-        <button type="button" class="btn-create">Создать</button>
-        <button type="button" class="btn-clear">Очистить всё</button>
+            <li class="todo-item">
+                <label class="label_xz">
+                    <input type="checkbox">
+                    <div class="task-text">
+                        <span>Полить картошку</span>
+                        <sub>от 04.05.2022</sub>
+                    </div>
+                </label>
+                <button type="button" class="btn-delete">✖</button>
+            </li>
+
+            <li class="todo-item">
+                <label class="label_xz">
+                    <input type="checkbox">
+                    <div class="task-text">
+                        <span>Сложить в лукошко</span>
+                        <sub>от 19.05.2022</sub>
+                    </div>
+                </label>
+                <button type="button" class="btn-delete">✖</button>
+            </li>
+        </ul>
+
+        <div class="empty-msg">Не найдено ни одного дела</div>
     </div>
 
-    <ul class="todo-list">
-        <li class="todo-item completed">
-            <label class="label_xz">
-                <input type="checkbox">
-                <span>Почесать кошку</span>
-            </label>
-            <button type="button" class="btn-delete">✖</button>
-        </li>
-
-        <li class="todo-item">
-            <label class="label_xz">
-                <input type="checkbox">
-                <span>Полить картошку</span>
-            </label>
-            <button type="button" class="btn-delete">✖</button>
-        </li>
-
-        <li class="todo-item">
-            <label class="label_xz">
-                <input type="checkbox">
-                <span>Сложить в лукошко</span>
-            </label>
-            <button type="button" class="btn-delete">✖</button>
-        </li>
-    </ul>
-
-    <div class="empty-msg" style="display: none;">Не найдено ни одного дела</div>
-</div>
+    <footer>
+        <hr>
+        <p>Copyright ©</p>
+    </footer>
 
 </body>
 </html>
