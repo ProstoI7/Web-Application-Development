@@ -196,17 +196,17 @@ img:hover{
     height: 200px;
     object-fit: cover;
 }
-.popular-tex {
+.popular-text {
     padding: 20px;
     display: flex;
     flex-direction: column;
     flex-grow: 1;
 }
-.popular-tex h3 {
+.popular-text h3 {
     margin: 0 0 10px 0;
     font-size: 20px;
 }
-.popular-tex p {
+.popular-text p {
     font-size: 14px;
     color: #666;
     margin-bottom: 15px;
@@ -217,4 +217,29 @@ img:hover{
     font-size: 18px;
 }
 
-
+.button-link {
+    background-color: #e95454;
+    color: white;
+    border: none;
+    border-radius: 24px;
+    font-size: 14px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin-top: 0;
+}
+.button-link:hover {
+    background-color: #b94141;
+}
+.tour-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+}
+.tour-price {
+    margin: 0;
+    font-size: 18px !important;
+    font-weight: bold;
+    color: #e95454 !important;
+}
