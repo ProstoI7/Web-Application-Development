@@ -293,3 +293,20 @@ img:hover{
     color: #555;
     margin: 0;
 }
+
+.moments-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+    width: 100%;
+    max-width: 1300px;
+    box-sizing: border-box;
+}
+.moments-content img {
+    flex: 0 1 230px;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 15px;
+}
