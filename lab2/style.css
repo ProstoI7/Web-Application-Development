@@ -10,18 +10,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    box-sizing: border-box;
-    padding-top: 20px;
-    padding-bottom: 80px;
 }
 
 .container {
     width: 100%;
     max-width: 600px;
-    padding: 20px;
     text-align: center;
+    padding-bottom: 70px;
 }
+
 .header {
     display: flex;
     align-items: center;
@@ -30,13 +27,13 @@ body {
     flex-wrap: wrap;
 }
 .header-icon {
-    width: 3.5rem;
-    height: 3.5rem;
+    width: 60px;
+    height: 60px;
     filter: brightness(0) invert(1);
 }
 h1 {
     color: white;
-    font-size: 3.5rem;
+    font-size: 40px;
     margin-bottom: 30px;
     font-family: 'Comic Sans MS';
 }
@@ -73,7 +70,6 @@ h1 {
     padding: 15px;
     cursor: pointer;
     white-space: nowrap;
-    font-size: 1rem;
     color: white;
 }
 
@@ -126,7 +122,6 @@ h1 {
 
 sub {
     color: var(--dark_grey);
-    font-size: 0.75rem;
     margin-top: 2px;
 }
 
@@ -150,8 +145,6 @@ input[type="checkbox"] {
     margin: 0;
     cursor: pointer;
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 input[type="checkbox"]:checked::after {
