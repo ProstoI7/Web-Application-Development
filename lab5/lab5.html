@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lab5</title>
+    <script src="lab5.js"></script>
+     <link type="text/css" href="style.css" rel="stylesheet">
+</head>
+<body>
+    <h2>Лабораторная работа №5</h2>
+    <div class="zadacha1">
+        <p>Задача 1:</p>
+        <div class="input">
+            <P>Введите значение: </P>
+            <input type="text" id="zadach1">
+        </div>
+        <div class="conteiner_bt">
+            <button onclick="task1()">Вернуть число в обратном порядке</button>
+            <button onclick="task2()">Вернуть число без повторяющихся цифр</button>
+            <div class="input zifra">
+                <P>Введите цифру: </P>
+                <input type="text" id="zadach1_zifra">
+            </div>
+            <button onclick="task3()">Посчитать, сколько раз в данном числе встречается данная цифра</button>
+            <button onclick="task4()">Посчитать самую длинную последовательность нулей/единиц в двоичной записи данного числа</button>
+        </div>
+        <p>Результат:
+            <span id="result1"></span>
+        </p>
+    </div>
+    <div class="zadacha2">
+        <p>Задача 2:</p>
+        <div class="input">
+            <P>Введите значение: </P>
+            <input type="text" id="zadach2">
+        </div>
+        <div class="conteiner_bt">
+            <button onclick="task5()">Найти самый первый неповторяющийся символ в строке</button>
+            <button onclick="task6()">Cгенерировать строку заданной длины из случайных символов, взятых из набора английскийх букв и цифр</button>
+            <button onclick="task7()">Вернуть только уникальные символы строки</button>
+        </div>
+        <p>Результат:
+            <span id="result2"></span>
+        </p>
+    </div>
+</body>
+</html>
