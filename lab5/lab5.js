@@ -1,13 +1,7 @@
-function clearResult()
-{
-    document.getElementById("result1").textContent = "";
-    document.getElementById("result2").textContent = "";
-}
-
 // Вернуть число в обратном порядке
 function task1()
 {
-    clearResult();
+    document.getElementById("result1").textContent = "";
     const val = document.getElementById("zadach1").value;
     let result = "";
 
@@ -21,7 +15,7 @@ function task1()
 // Вернуть число без повторяющихся цифр
 function task2()
 {
-    clearResult();
+    document.getElementById("result1").textContent = "";
     const val = document.getElementById("zadach1").value;
     let result = "";
 
@@ -51,7 +45,7 @@ function task2()
 // Посчитать, сколько раз в данном числе встречается данная цифра
 function task3()
 {
-    clearResult();
+    document.getElementById("result1").textContent = "";
     const val = document.getElementById("zadach1").value;
     const digit = document.getElementById("zadach1_zifra").value;
     let count = 0;
@@ -70,7 +64,7 @@ function task3()
 // Посчитать самую длинную последовательность нулей/единиц в двоичной записи данного числа
 function task4()
 {
-    clearResult();
+    document.getElementById("result1").textContent = "";
 
     const val = document.getElementById("zadach1").value;
     let num = Number(val);
@@ -106,7 +100,7 @@ function task4()
 // Найти самый первый неповторяющийся символ в строке
 function task5()
 {
-    clearResult();
+    document.getElementById("result2").textContent = "";
     const str = document.getElementById("zadach2").value;
 
     for (let i = 0; i < str.length; i++)
@@ -133,8 +127,8 @@ function task5()
 // Cгенерировать строку заданной длины из случайных символов, взятых из набора английскийх букв и цифр
 function task6()
 {
-    clearResult();
-    const len = document.getElementById("zadach2").value;
+    document.getElementById("result2").textContent = "";
+    const len = document.getElementById("zadach2_zifra").value;
     let length = Number(len);
 
     let chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
@@ -152,7 +146,7 @@ function task6()
 // Вернуть только уникальные символы строки
 function task7()
 {
-    clearResult();
+    document.getElementById("result2").textContent = "";
     const str = document.getElementById("zadach2").value;
 
     let result = "";
